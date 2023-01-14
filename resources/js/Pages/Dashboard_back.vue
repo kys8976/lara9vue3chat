@@ -1,6 +1,8 @@
 <script setup>
 import AuthenticatedLayout from '@/Layouts/AuthenticatedLayout.vue';
 import { Head } from '@inertiajs/inertia-vue3';
+const props = defineProps(['auth_id']);
+console.log(props);
 </script>
 
 <template>
